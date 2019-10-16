@@ -1,0 +1,49 @@
+body{
+	background-image: url("884aa4be28287056c7b5d6d075382c51.jpg");
+	background-size:cover;
+}
+#info{
+	margin-left:10%;
+	width: 400px;
+	height: 125px;
+	background-color: lightblue;
+	display: none;
+
+}
+
+#picture1{
+    margin-left: 5%;
+
+
+}
+#picture2{
+	margin-left: 5%;
+	position: absolute ;
+	left:600px;
+	top:25px;
+
+
+}
+#interest{
+	margin-left: 10%;
+	position: absolute;
+	left:650px;
+	top:405px;
+	background-color: lightblue;
+	display: none;
+}
+
+#main{
+	margin-left: 5%;
+	color:green;
+}
+#facebook{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+}
+#instagram{
+	position:absolute;
+	right: 105px;
+	bottom: 37px;
+}
