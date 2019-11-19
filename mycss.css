@@ -58,6 +58,13 @@ body{
 #game_info{
 	position: absolute;
 	left:5px;
-	bottom: 25px;
+	bottom: 5px;
+	display:none;
+}
+
+#game_start{
+	position: absolute;
+	left:5px;
+	bottom: 15px;
 	display:none;
 }

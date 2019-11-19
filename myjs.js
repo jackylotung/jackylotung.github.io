@@ -23,4 +23,5 @@ $("#game").click(function(){
     $("#game").fadeOut();
     $("#body").fadeOut();
     $("#game_info").show();
+    $("#game_start").show();
 }); 
