@@ -47,3 +47,10 @@ body{
 	right: 105px;
 	bottom: 37px;
 }
+
+#game{
+	position: absolute;
+	margin-left:10%;
+	bottom: 50px;
+
+}

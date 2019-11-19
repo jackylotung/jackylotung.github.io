@@ -18,5 +18,8 @@ $("#picture2").click(function(){
     $("#info").slideUp(1000);
     $("#picture1").fadeToggle("slow");
 
-
 });
+$("#game").click(function(){
+    
+
+})
