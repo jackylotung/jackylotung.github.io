@@ -57,21 +57,21 @@ body{
 
 #game_info{
 	position: absolute;
-	left: 5px;
+	left: 50px;
 	bottom: 5px;
 	display:none;
 }
 
 #game_start{
 	position: absolute;
-	left: 5px;
-	bottom: 15px;
+	left: 50px;
+	bottom: 45px;
 	display:none;
 }
 
 #back_to_web{
 	position: absolute;
-	left: 5px;
-	bottom: 15px;
+	left: 50px;
+	bottom: 75px;
 	display:none;
 }
