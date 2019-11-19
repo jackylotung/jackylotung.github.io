@@ -68,3 +68,10 @@ body{
 	bottom: 15px;
 	display:none;
 }
+
+#back_to_web{
+	position: absolute;
+	left: 5px;
+	bottom: 15px;
+	display:none;
+}

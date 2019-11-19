@@ -24,4 +24,11 @@ $("#game").click(function(){
     $("#body").fadeOut();
     $("#game_info").show();
     $("#game_start").show();
+    $("#back_to_web").show();
 }); 
+
+$("#game_start").click(function(){
+    $("#back_to_web").hide();
+    $("#game_info").hide();
+
+});
