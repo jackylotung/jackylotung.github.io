@@ -27,4 +27,4 @@ $("#game").click(function(){
     $("#instagram").fadeToggle("normal");
     $("#facebook").fadeToggle("normal");
     $("#main").fadeToggle("normal");
-})
+});
