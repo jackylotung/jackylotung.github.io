@@ -5,10 +5,7 @@ $("#picture1").click(function(){
     $("#picture2").slideToggle("normal");
 
 });
-$("#interest").click(function(){
-    $("#interest").slideUp(1000);
 
-});
 $("#picture2").click(function(){
     $("#interest").slideToggle("slow");
     $("#info").slideUp(1000);
