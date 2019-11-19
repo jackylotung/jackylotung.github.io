@@ -1,8 +1,4 @@
-$("#info").click(function(){
-	$("#info").slideUp(1000);
 
-
-});
 $("#picture1").click(function(){
     $("#info").slideToggle("slow");
     $("#interest").slideUp(1000);
