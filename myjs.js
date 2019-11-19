@@ -21,4 +21,6 @@ $("#game").click(function(){
     $("#facebook").fadeOut();
     $("#main").fadeOut();
     $("#game").fadeOut();
+    $("#body").fadeOut();
+    $("#game_info").show();
 }); 

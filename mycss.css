@@ -54,3 +54,10 @@ body{
 	bottom: 50px;
 
 }
+
+#game_info{
+	position: absolute;
+	margin-left:10%;
+	bottom: 50px;
+	display:none;
+}
