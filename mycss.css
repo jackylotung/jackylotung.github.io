@@ -57,7 +57,7 @@ body{
 
 #game_info{
 	position: absolute;
-	margin-left:10%;
-	bottom: 50px;
+	left:5px;
+	bottom: 25px;
 	display:none;
 }
