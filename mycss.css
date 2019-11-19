@@ -56,6 +56,7 @@ body{
 }
 
 #game_info{
+	margin-left:10%;
 	position: absolute;
 	left: 50px;
 	bottom: 5px;
@@ -63,6 +64,7 @@ body{
 }
 
 #game_start{
+	margin-left:10%;
 	position: absolute;
 	left: 50px;
 	bottom: 45px;
@@ -70,6 +72,7 @@ body{
 }
 
 #back_to_web{
+	margin-left:10%;
 	position: absolute;
 	left: 50px;
 	bottom: 75px;
