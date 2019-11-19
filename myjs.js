@@ -20,4 +20,5 @@ $("#game").click(function(){
     $("#instagram").fadeOut();
     $("#facebook").fadeOut();
     $("#main").fadeOut();
-});
+    $("#game").fadeOut();
+}); 
