@@ -20,6 +20,11 @@ $("#picture2").click(function(){
 
 });
 $("#game").click(function(){
-    
-
+    $("#interest").fadeToggle("normal");
+    $("#picture1").fadeToggle("normal");
+    $("#picture2").fadeToggle("normal");
+    $("#info").fadeToggle("normal");
+    $("#instagram").fadeToggle("normal");
+    $("#facebook").fadeToggle("normal");
+    $("#main").fadeToggle("normal");
 })
