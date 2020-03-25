@@ -138,6 +138,41 @@ body {
     right: 0px;
 }
 
+#text1_inP2 {
+    height: 20vh;
+    margin-top: 30vh;
+    font-family: 'Abel', sans-serif;
+    font-size: 25vh;
+    font-size: 10vw;
+    left: 100vw;
+    /* 銝���见�见���誩銁���𢰧�羓�衤�滚�嚗𣬚�匧�閧𧞄敺�撌行�穃枂靘� */
+    position: absolute;
+    z-index: 10;
+}
+
+#text2_inP2 {
+    height: 20vh;
+    margin-top: 50vh;
+    font-family: 'Abel', sans-serif;
+    font-size: 25vh;
+    font-size: 10vw;
+    right: 100vw;
+    /* 銝���见�见���誩銁��撌阡�羓�衤�滚�嚗𣬚�匧�閧𧞄敺��𢰧皛穃枂靘� */
+    position: absolute;
+    z-index: 10;
+}
+
+#text1_inP4 {
+    height: 20vh;
+    margin-top: 35vh;
+    text-align: center;
+    font-family: 'AileronRegular';
+    font-size: 25vh;
+    font-size: 10vw;
+    position: absolute;
+    z-index: 10;
+}
+
 
 /*
 #text1_inP2 {
