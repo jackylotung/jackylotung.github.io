@@ -1,102 +1,15 @@
-/* general setting */
-
 div {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*Make the bk fullfill the screen*/
     width: 100vw;
     height: 100vh;
-    /*Separate the page*/
 }
 
 body {
     color: white;
     margin: 0px;
 }
-
-
-/* General class */
-
-
-/* for icon */
-
-
-/*
-.head{
-    height: 10vh;
-    width: 95vw;
-    position: absolute;
-    margin-top: 2vh;
-    margin-left: 2vw;
-}
-/* id */
-
-
-/* home icon */
-
-
-/*
-#home_img{
-    height: 7vh;
-    position: absolute;
-    left: 0px;  
-}
-#home_img:hover{
-    transform:translateX(-1vw);
-}
-
-/* manu icon */
-
-
-/*
-#manu_img{
-    height: 7vh;
-    position: absolute;
-    right:0px;
-}
-
-/* scroll icon */
-
-
-/*
-#scroll{
-    position: absolute;
-    height: 10vh;
-    width: 20vw;
-    left: -6vw;
-    bottom: 2vh;
-    z-index: 50;
-}
-
-/* page2  */
-
-
-/*
-#page2{   
-    background-color:black;
-    padding-top: 0px;
-    position:  relative;
-    z-index: 0;
-}
-
-#text_cosmos{
-    height: 20vh;
-    width: 60vw;
-    position: absolute;
-    top: 40vh;
-    left: 20vw;
-}
-*/
-
-
-/*#擐㚚�2{
-    min-width: 100vw;
-    pointer-events: none;
-    position: absolute;
-    z-index: 2;
-}
-/* 蝚砌�屸� */
 
 .bottom {
     height: 10vh;
@@ -141,12 +54,8 @@ body {
     background-color: black;
     padding-top: 0px;
     position: relative;
-    /* �箔�暻潮�躰ㄐ霈𦠜�鞟�訫�滚�帋�滨洵銝厰�撠望�鋡怠����?(閬��𪄳鈭箏��) */
     z-index: 0;
 }
-
-
-/* 鋆苷葉��㮖�匧撐��𣇉�獢� */
 
 .img_three {
     height: 70vh;
@@ -154,13 +63,9 @@ body {
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding-top: 0px;
-    /* display: flex; 敹�敹�隤芰�㗇䲰��羓�抒���鮋�脣�諹”�聢��鍦��*/
     position: absolute;
     z-index: 1;
 }
-
-
-/* 蝚砌�屸�銝剔���𣇉�� */
 
 .img_inP2 {
     width: 30vw;
@@ -191,7 +96,6 @@ body {
     font-size: 25vh;
     font-size: 10vw;
     left: 100vw;
-    /* 銝���见�见���誩銁���𢰧�羓�衤�滚�嚗𣬚�匧�閧𧞄敺�撌行�穃枂靘� */
     position: absolute;
     z-index: 10;
 }
@@ -203,7 +107,6 @@ body {
     font-size: 25vh;
     font-size: 10vw;
     right: 100vw;
-    /* 銝���见�见���誩銁��撌阡�羓�衤�滚�嚗𣬚�匧�閧𧞄敺��𢰧皛穃枂靘� */
     position: absolute;
     z-index: 10;
 }
@@ -224,100 +127,6 @@ body {
     filter: drop-shadow(8px 8px 50px white);
 }
 
-
-/*
-#text1_inP2 {
-    height: 20vh;
-    margin-top: 30vh;
-    font-family: 'Abel', sans-serif;
-    font-size: 25vh;
-    font-size: 10vw;
-    left: 100vw;
-    position: absolute;
-    z-index: 10;
-}
-
-#text2_inP2 {
-    height: 20vh;
-    margin-top: 50vh;
-    font-family: 'Abel', sans-serif;
-    font-size: 25vh;
-    font-size: 10vw;
-    right: 100vw;
-    position: absolute;
-    z-index: 10;
-}
-*/
-
-
-/* page3 */
-
-
-/*
-#page3{
-    position:  relative;
-    z-index: 0;
-    background-color: black;
-   
-}
-
-#img1_inPg3{
-    /* background-color: darkorange; */
-
-
-/*
-    margin-top: 20vh;
-    margin-left: 7vw;
-    height: 55vh;
-    width: 40vw;
-    position: absolute;
-    z-index: 10;
-}
-#img2_inPg3{
-    /* background-color: darkorange; */
-
-
-/*
-    margin-top: 10vh;
-    right: 5vw;
-    height: 75vh;
-    width: 55vw;
-    position: absolute;
-    z-index: 9;
-}
-#text_Timon{
-    font-family:'Abel', sans-serif;
-    font-size: 15vh;
-    font-size: 7vw;
-    position: absolute;
-    left: 50vw;
-    top: 0vh;
-    z-index: 11;
-}
-#content_Timon{
-    font-family:'Abel', sans-serif;
-    color: rgb(220, 220, 220);
-    font-size: 2vh;
-    font-size: 1vw;
-    position: absolute;
-    left: 50vw;
-    top: 29vh;
-    z-index: 12;
-    text-shadow:-1px -1px 0 rgb(110, 104, 104),1px -1px 0 rgb(110, 104, 104),
-    -1px 1px 0 rgb(110, 104, 104),
-    1px 1px 0 rgb(110, 104, 104),2px 2px 2px rgb(110, 104, 104);
-}
-#text_where{
-    font-family:'Abel', sans-serif;
-    font-size: 15vh;
-    font-size: 6vw;
-    position: absolute;
-    left: 2vw;
-    top: 10vh;
-    z-index: 11;
-}
-/* page 4 */
-
 #page4 {
     position: relative;
     z-index: 0;
@@ -329,6 +138,3 @@ body {
     bottom: 1vh;
     height: 10vh;
 }
-
-
-/* Reference H34056275/7/https://luffy.ee.ncku.edu.tw/~dan29981207/first_hw/index.html */
