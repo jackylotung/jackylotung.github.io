@@ -98,6 +98,23 @@ body {
 }
 /* 蝚砌�屸� */
 
+.home2_img {
+    height: 70%;
+    width: auto;
+}
+
+.home2_img:hover {
+    height: 70%;
+    width: auto;
+    transform: translateX(2vw);
+}
+
+#manu_img {
+    height: 7vh;
+    position: absolute;
+    right: 0px;
+}
+
 #Page_2 {
     min-width: 100vw;
     background-color: black;
@@ -144,7 +161,7 @@ body {
     font-family: 'Abel', sans-serif;
     font-size: 25vh;
     font-size: 10vw;
-    left: 100vw;
+    /*left: 100vw;*/
     /* 銝���见�见���誩銁���𢰧�羓�衤�滚�嚗𣬚�匧�閧𧞄敺�撌行�穃枂靘� */
     position: absolute;
     z-index: 10;
@@ -156,7 +173,7 @@ body {
     font-family: 'Abel', sans-serif;
     font-size: 25vh;
     font-size: 10vw;
-    right: 100vw;
+    /*right: 100vw;*/
     /* 銝���见�见���誩銁��撌阡�羓�衤�滚�嚗𣬚�匧�閧𧞄敺��𢰧皛穃枂靘� */
     position: absolute;
     z-index: 10;
