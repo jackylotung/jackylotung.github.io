@@ -14,5 +14,5 @@ $("#Page_2").mouseleave(function() {
 
 function Deepen() {
     tmp_opacity += 0.07;
-    $(".P1").css("opacity", tmp_opacity);
+    $("#page1").css("opacity", tmp_opacity);
 }
