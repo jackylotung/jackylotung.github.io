@@ -5,12 +5,13 @@ $("#Page_2").mouseover(function() {
     $("#text1_inP2").animate({ left: '15vw' }, 1500);
     $("#text2_inP2").animate({ left: '15vw' }, 1500);
 });
+
 $("#Page_2").mouseleave(function() {
     $("#text1_inP2").animate({ left: '-100vw' }, 1200);
     $("#text2_inP2").animate({ right: '-100vw' }, 1200);
-})
+});
 
 
 function Deepen() {
-    jQuery('#page1').css('opacity', '0.6')
+    jQuery('#page1').css('opacity', '1')
 }
