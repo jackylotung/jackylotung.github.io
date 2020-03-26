@@ -111,30 +111,42 @@ body {
     left: -5vw;
 }
 
-#Page_2 {
-    min-width: 100vw;
-    background-color: black;
-    padding-top: 0px;
-    position: relative;
-    z-index: 0;
+.head {
+    height: 10vh;
+    width: 95vw;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
 }
 
 .home2_img {
-    height: 70%;
+    /*height: 70%;*/
     width: auto;
 }
 
 .home2_img:hover {
-    height: 70%;
+    /*height: 70%;*/
     width: auto;
     transform: translateX(2vw);
 }
 
 #manu_img {
-    height: 7vh;
+    /*height: 7vh;*/
     position: absolute;
     right: 0px;
 }
+
+#Page_2 {
+    min-width: 100vw;
+    background-color: black;
+    padding-top: 0px;
+    position: relative;
+    /* �箔�暻潮�躰ㄐ霈𦠜�鞟�訫�滚�帋�滨洵銝厰�撠望�鋡怠����?(閬��𪄳鈭箏��) */
+    z-index: 0;
+}
+
+
+/* 鋆苷葉��㮖�匧撐��𣇉�獢� */
 
 .img_three {
     height: 70vh;
@@ -142,9 +154,13 @@ body {
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding-top: 0px;
+    /* display: flex; 敹�敹�隤芰�㗇䲰��羓�抒���鮋�脣�諹”�聢��鍦��*/
     position: absolute;
     z-index: 1;
 }
+
+
+/* 蝚砌�屸�銝剔���𣇉�� */
 
 .img_inP2 {
     width: 30vw;
@@ -188,17 +204,6 @@ body {
     font-size: 10vw;
     /*right: 100vw;*/
     /* 銝���见�见���誩銁��撌阡�羓�衤�滚�嚗𣬚�匧�閧𧞄敺��𢰧皛穃枂靘� */
-    position: absolute;
-    z-index: 10;
-}
-
-#text1_inP4 {
-    height: 20vh;
-    margin-top: 35vh;
-    text-align: center;
-    font-family: 'AileronRegular';
-    font-size: 25vh;
-    font-size: 10vw;
     position: absolute;
     z-index: 10;
 }
